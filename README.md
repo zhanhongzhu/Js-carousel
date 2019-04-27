@@ -2,21 +2,21 @@
 原生js实现轮播图
 
 
-<!DOCTYPE html>
-<html>
+      <!DOCTYPE html>
+      <html>
 
-<head>
-    <title>轮播图</title>
-    <meta charset="utf-8">
-</head>
-<style type="text/css">
-body,
-html {
-    padding: 0;
-    margin: 0;
-}
+      <head>
+      <title>轮播图</title>
+      <meta charset="utf-8">
+      </head>
+      <style type="text/css">
+      body,
+      html {
+      padding: 0;
+      margin: 0;
+      }
 
-.wrapper {
+   .wrapper {
     width: 800px;
     min-width: 800px;
     max-width: 800px;
@@ -25,9 +25,9 @@ html {
     border: 1px solid red;
     margin: 50px auto;
     position: relative;
-}
+   }
 
-.container {
+  .container {
     width: 4000px;
     height: 100%;
     padding: 0;
@@ -35,31 +35,31 @@ html {
     box-sizing: border-box;
     font-size: 0px;
     position: absolute;
-}
+  }
 
-.container li,
-.container li>img {
+  .container li,
+  .container li>img {
     padding: 0;
     margin: 0;
     display: inline-block;
     height: 100%;
     list-style: none;
     width: 800px;
-}
+  }
 
-.btn {
+  .btn {
     min-width: 800px;
     position: absolute;
     top: 45%;
     height: 60px;
-}
+  }
 
-.btn::after {
+  .btn::after {
     clear: both;
     content: '';
-}
+  }
 
-.btn-left {
+  .btn-left {
     float: left;
     width: 100px;
     height: 100%;
@@ -70,9 +70,9 @@ html {
     line-height: 60px;
     cursor: pointer;
     color: #fff;
-}
+  }
 
-.btn-right {
+  .btn-right {
     float: right;
     width: 100px;
     height: 100%;
@@ -84,36 +84,36 @@ html {
     text-align: center;
     line-height: 60px;
     color: #fff;
-}
+  }
 
-.point {
+  .point {
     position: absolute;
     bottom: 2%;
     width: 200px;
     height: 30px;
     list-style: none;
     left: 35%;
-}
+   }
 
-.point li {
+  .point li {
     height: 15px;
     width: 15px;
     border-radius: 50%;
     margin: 10px;
     display: inline-block;
     cursor: pointer;
-}
-.active{
+  }
+  .active{
 	background-color: red;
-}
-.normal{
+  }
+  .normal{
 	background-color: #fff;
 	opacity: 0.6;
-}
-</style>
+  }
+        </style>
 
-<body>
-    <div class="wrapper">
+	<body>
+        <div class="wrapper">
         <ul class="container">
             <li class="oli"><img src="./images/banner02.jpg"></li>
             <li class="oli"><img src="./images/banner03.jpg"></li>
