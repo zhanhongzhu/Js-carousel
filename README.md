@@ -25,7 +25,7 @@
     border: 1px solid red;
     margin: 50px auto;
     position: relative;
-   }
+     }
    
   .container {
     width: 4000px;
