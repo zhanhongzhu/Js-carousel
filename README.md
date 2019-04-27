@@ -26,8 +26,8 @@
     margin: 50px auto;
     position: relative;
      }
-   
-  .container {
+       
+     .container {
     width: 4000px;
     height: 100%;
     padding: 0;
@@ -35,31 +35,31 @@
     box-sizing: border-box;
     font-size: 0px;
     position: absolute;
-   }
+     }
    
-  .container li,
-  .container li>img {
+     .container li,
+    .container li>img {
     padding: 0;
     margin: 0;
     display: inline-block;
     height: 100%;
     list-style: none;
     width: 800px;
-  }
+     }
 
-  .btn {
+    .btn {
     min-width: 800px;
     position: absolute;
     top: 45%;
     height: 60px;
-  }
+     }
 
-  .btn::after {
+    .btn::after {
     clear: both;
     content: '';
-  }
+     }
 
-  .btn-left {
+    .btn-left {
     float: left;
     width: 100px;
     height: 100%;
@@ -70,9 +70,9 @@
     line-height: 60px;
     cursor: pointer;
     color: #fff;
-  }
+     }
 
-  .btn-right {
+    .btn-right {
     float: right;
     width: 100px;
     height: 100%;
@@ -84,32 +84,32 @@
     text-align: center;
     line-height: 60px;
     color: #fff;
-  }
+    }
 
-  .point {
+     .point {
     position: absolute;
     bottom: 2%;
     width: 200px;
     height: 30px;
     list-style: none;
     left: 35%;
-   }
+    }
 
-  .point li {
+    .point li {
     height: 15px;
     width: 15px;
     border-radius: 50%;
     margin: 10px;
     display: inline-block;
     cursor: pointer;
-  }
-  .active{
+    }
+     .active{
 	background-color: red;
-  }
-  .normal{
+    }
+     .normal{
 	background-color: #fff;
 	opacity: 0.6;
-  }
+     }
         </style>
 
 	<body>
