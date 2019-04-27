@@ -15,8 +15,8 @@
       padding: 0;
       margin: 0;
       }
-
-   .wrapper {
+    
+    .wrapper {
     width: 800px;
     min-width: 800px;
     max-width: 800px;
@@ -26,7 +26,7 @@
     margin: 50px auto;
     position: relative;
    }
-
+   
   .container {
     width: 4000px;
     height: 100%;
@@ -35,8 +35,8 @@
     box-sizing: border-box;
     font-size: 0px;
     position: absolute;
-  }
-
+   }
+   
   .container li,
   .container li>img {
     padding: 0;
